@@ -39,3 +39,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# ----- Added for this project -----
+
+# Working files that aren't part of the website
+/Claude outputs/
+*-original.*
+
+# Editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
